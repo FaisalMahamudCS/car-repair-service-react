@@ -2,7 +2,7 @@ import React from 'react';
 import { Row ,Col,Card} from 'react-bootstrap';
 
 const Experts = (props) => {
-    const {id,service,picture,description}=props.service;
+    const {id,name,photo,description}=props.expert;
     return (
         <div>
              <div className=''>
@@ -11,9 +11,9 @@ const Experts = (props) => {
  
 <Col>
   <Card className='h-100'>
-    <Card.Img className='img-fluid ' id='img' variant="top" src={picture} />
+    <Card.Img className='img-fluid ' id='img' variant="top" src={photo} />
     <Card.Body>
-      <Card.Title className="text-center">{service}</Card.Title>
+      <Card.Title className="text-center">{name}</Card.Title>
       <Card.Text>
    {description}
 

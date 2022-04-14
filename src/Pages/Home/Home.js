@@ -14,6 +14,7 @@ const Home = () => {
         <div>
           <Header></Header>
           <Container>
+            <h4 className='text-center'>Services</h4>
           <div className='service'>
           <Row xs={1} md={3} className="g-4">
           {/* {Array.from({ length: 4}).map((_, id) => ( */}
@@ -30,6 +31,7 @@ const Home = () => {
 
           <Container>
           <div className='expert'>
+          <h4 className='text-center'>Experts</h4>
           <Row xs={1} md={3} className="g-4">
           {/* {Array.from({ length: 4}).map((_, id) => ( */}
            {
