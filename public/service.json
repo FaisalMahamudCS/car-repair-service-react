@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "service":"Car Maintainance",
+        "picture":"https://images.unsplash.com/photo-1583955746149-71a61419d759?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "description":"it is a popular car maintainace service center."
+    },
+    {
+        "id":"2",
+        "service":"Engine Maintainance",
+        "picture":"https://c.neh.tw/thumb/f/720/comrawpixel1206484.jpg",
+        "description":"we maintain your car engine with care."
+    },
+    {
+        "id":"3",
+        "service":"Repair",
+        "picture":"https://chorus.stimg.co/22205451/ows_6841106c_625c_4a7e_9e07_402ff8a6306f.jpg?w=525&h=600&format=auto%2Ccompress&cs=tinysrgb&auto=compress&crop=faces&dpr=1",
+        "description":"You can get hassel free car repair services"
+    }
+]
